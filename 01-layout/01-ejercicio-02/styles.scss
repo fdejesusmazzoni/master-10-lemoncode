@@ -1,0 +1,39 @@
+@import "_theme2.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.base {
+  background-color: $base-color;
+}
+
+.important {
+  background-color: $important-color;
+}
+
+.warning {
+  background-color: $warning-color;
+}
+
+.mainFont {
+  font-family: $main-font;
+}
+
+.secondaryFont {
+  font-family: $secondary-font;
+}
+
+.box {
+  width: 80px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: $radius;
+  margin: 5px;
+}
+
+.shadow {
+  box-shadow: $shadow;
+}

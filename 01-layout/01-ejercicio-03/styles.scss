@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #00697a;
+  color: white;
+}
+
+.option {
+  padding: 10px 40px;
+}
+
+.selected {
+  background-color: #2e4757;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
